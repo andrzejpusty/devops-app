@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
 
 @app.get("/")
 async def root():
-    return {"message": "DevOps app running new"}
+    return {"message": "DevOps app running new static"}
 
 @app.get("/health")
 async def health():
